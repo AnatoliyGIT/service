@@ -1,7 +1,8 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: ${EUREKA_URL:http://user:password@localhost:5000}/eureka/
+#      defaultZone: ${EUREKA_URL:http://user:password@localhost:5000}/eureka/
+      defaultZone: https://life4you-discovery.herokuapp.com/eureka/
 ---
 spring:
   profiles: heroku
